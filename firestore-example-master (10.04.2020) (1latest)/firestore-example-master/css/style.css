@@ -1,0 +1,201 @@
+#contain{
+  padding-left: 10em;
+  padding-right: 10em;
+  
+}
+
+body {
+    font-family: sans-serif;
+
+  }
+
+  img {
+    border: 5em solid black;
+  }
+  /* Fonts from Google Fonts - more at https://fonts.google.com */
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+  @import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
+  
+  body {
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    padding: 5px 25px;
+    font-size: 18px;
+    margin: 0;
+    color: #444;
+  }
+  
+  h1 {
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+  }
+
+  .price {
+    text-align: right;
+  }
+  
+.averagePrice {
+  color: red;
+  text-align: right;
+}
+
+
+
+
+#section1 {
+  border: 0ch black;
+  float: left;
+  margin-left: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  width: 90%;
+  font-family: 'Ubuntu', sans-serif;
+ 
+}
+
+
+#section2{
+  border: 0ch black;
+  float: left;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  width: 90%;
+  margin-left: 5%;
+  font-family: 'Ubuntu', sans-serif;
+ 
+}
+#threepics {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:  white;
+  height: 20em; 
+}
+
+#container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:  white;
+  height: 50em; 
+  margin-top: 7em;
+}
+
+#t1{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+
+}
+#t2{
+  
+  font-family: 'Lobster', cursive;
+}
+
+#t3{
+    
+  font-family: 'Lobster', cursive;
+}
+
+#singer1{
+  float: left;
+  border: 0.1em solid rgba(255, 182, 148, 0.699);
+  border-radius: 50%; 
+  width:13em;
+  height:15em; 
+  margin-top: 5em;
+  margin-left: 5em;
+}
+
+#singer2{
+  float: left;
+  border: 0.1em solid rgba(255, 182, 148, 0.699);
+  border-radius: 50%; 
+  width:13em;
+  height:15em; 
+  margin-top: 5em;
+  margin-left: 5em;
+}
+#singer3{
+  float: left;
+  border: 0.1em solid  rgba(255, 182, 148, 0.699);
+  border-radius: 50%; 
+  width:13em;
+  height:15em; 
+  margin-top: 5em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.pic1{
+  float: left;
+  border: 0.1em solid rgba(255, 182, 148, 0.699);
+  height: 15em;
+  width: 15em;
+  margin-right: 1%;
+  border-radius: 50%;
+}
+
+.pic2{ 
+  float: right;
+  border: 0.1em solid rgba(255, 182, 148, 0.699);
+  height: 15em;
+  width: 15em;
+  margin-right: 1%;
+  border-radius: 50%;
+}
+
+#footer {
+
+  position: absolute;
+  
+  left: 0;
+  
+  right: 0;
+  
+  bottom: 0;
+  
+  }
+
+#contacts{
+  float: left;
+  margin-left: 25%; 
+  color:black;
+  margin-top: 15em;
+  font-family: 'Lobster', cursive;
+}
+
+#twitterimg{
+  height: 5em;
+  width: 5em;
+  margin-left: 3.5em;
+  
+}
+
+#instaimg{
+  height: 5em;
+  width: 5em;
+  margin-left: 3.5em;
+  
+}
+
+.sticky{
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+
+}
+#arrow{
+  height: 3em;
+  widows: 2em;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

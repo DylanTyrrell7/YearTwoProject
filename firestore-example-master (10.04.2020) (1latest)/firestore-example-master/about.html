@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About </title>    
+</head>
+<body>
+    <div id='contain'>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Music4You
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Publish.html">Publish</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <main>
+     <div id="threepics">
+            <h2 style="text-align:center"> About Our Website </h2>
+            <a href="index.html"><img  id="singer1" class="zoom" src="pictures\singer.jpg"></a> 
+            <a href="about.html"><img  id="singer2" class="zoom" src="pictures\concert.jpg"></a>
+            <a href="Publish.html"><img  id="singer3" class="zoom" src="pictures\genre.png" ></a>
+    </div>   
+    <div id ="container">
+        <div id="firstblock">
+            <h2 id= "t1" style="text-align: center" >Who are we and what do we do ?</h2>
+            <p style="text-align: center">This is our website for live up to date messages about everything going on in the world of music.
+               From your favourite Artists, to Genres and concerts, you can find so much information in real time here.
+               Plus if you have something you would like to add, you are more than welcome, in fact we encourage it, if you know something and want to let your fellow fans know,
+               why not drop an update to keep everyone informed.
+               With so many interests lying out there we wanted to bring it all to you in one spot where as a community we can help each other out.
+                Music is a passion and it means alot to us that we can connect all the different sides of the industry into one platform.
+
+                We hope you enjoy your experience and find all the information you need about your music idols and music icons.
+                </p>
+          </div>
+      <div id="section1">
+        <img class="pic1" src="pictures\TheProdigy.jpg" alt="musicband" style="border: 0.1em solid black;">
+        <h2 id="t2">Artists & genres </h2>
+        <p>We have catagorised and filtered our genres which will be easier for you to pick by genre if you can't think of your favourite artists. We have many genres and artists we use the trends to add to new artists.
+
+            There are many genres and artists because people have may tastes of music, You can add a new artists or genres if your favourite isnt there.
+
+            If your favourite band is the The Prodigy we are sure to have this band in our list , and if you dont want to narrow down
+
+            to a band then a genre will broaden the scope.
+        </p>
+      </div>
+      <hr>
+      <div id="section2">
+        <img class="pic2" src="pictures\gig.jpg" alt="gig" style="border: 0.1em solid black;">
+        <h2 id="t3">Concerts & Gigs </h2>
+        <p>The Gigs and Tours roster is extensive and varied, with people been able to update the site about there favourite artists and bands playing, we are covering practically all  artists performing in Ireland 
+
+            Europe, and all the major venues, so you won't have to go anywhere else to get the information you need.</p>
+      </div>
+    </div>
+    </main>
+
+
+    <link rel="stylesheet" href="css/style.css">
+     <!-- Load BootStrap 4 CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+ <!-- Load open-iconic (fonts, icons, etc.) -->
+    <link rel="stylesheet" href="css/open-iconic/css/open-iconic-bootstrap.min.css">
+
+
+ <!-- BootStrap 4 JavaScript Dependencies  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+ <!-- Firebase JavaScript dependencied -->    
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
+ 
+ <!-- Firestore config, initialisation, and functions-->
+    <script src="javascript/firestore.js"></script>
+
+ <!-- Message load and display functions -->
+    <script src="javascript/messages.js"></script>
+
+    </div>
+</body>
+</html>
