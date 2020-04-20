@@ -5,10 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+        function startTime() {
+          var today = new Date();
+          var h = today.getHours();
+          var m = today.getMinutes();
+          var s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('txt').innerHTML =
+          h + ":" + m + ":" + s;
+          var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+          return i;
+        }
+        </script>
     <title>Music MQTT System</title>
 </head>
 
-<body>
+<body onload="startTime()">
+
+
     <div id="contain">
     <!-- Navigation bar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
@@ -35,15 +54,17 @@
     </nav> <!-- end Nav bar -->
 
     <!-- Container for page content-->
-    <div class="container">
+    <div id ="t1"class="container">
         <div class="row">
             <h2 class="mt-5">Todays Updates </h2> 
         </div>
+        <div id="txt"></div>
+    
         <p id='date'> </p>
         <!-- content row-->
         <div class="row">
             <!-- left column-->
-            <div class="col-sm-2">
+            <div id="t1" class="col-sm-1.5">
                 <div id="categoryList" class="list-group">
                     <button onclick="filterSelection('Rock')" class="list-group-item list-group-item-action">Rock</button>
                     <br>
